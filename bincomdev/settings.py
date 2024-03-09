@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'results.apps.ResultsConfig'
 ]
 
 MIDDLEWARE = [
@@ -75,8 +76,14 @@ WSGI_APPLICATION = 'bincomdev.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',  # Use your database engine
+        'NAME': 'bincom_dev',               # Database name
+        'USER': 'root',                # Database user
+        'PASSWORD': '',        # Database password
+        'HOST': 'localhost',                   # Database host
+        'PORT': '3306',                        # Database port
     }
 }
 

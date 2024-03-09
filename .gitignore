@@ -5,6 +5,7 @@
 
 # Database file
 db.sqlite3
+bincom_test.sql
 
 # Log files
 *.log
