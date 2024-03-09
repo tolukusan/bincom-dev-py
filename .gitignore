@@ -1,0 +1,17 @@
+# .gitignore
+
+# Environment files
+.env
+
+# Database file
+db.sqlite3
+
+# Log files
+*.log
+
+# PyCharm project files
+.idea/
+
+# Virtual environments
+venv/
+Pipfile.lock
