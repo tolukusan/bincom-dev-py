@@ -1,7 +1,10 @@
 # .gitignore
 .vscode
-__pycache__/
 # Environment files
+__pycache__/
+__pycache__
+results/__pycache__
+bincomdev/__pycache__
 .env
 passwords bruhh
 
