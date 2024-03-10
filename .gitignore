@@ -1,7 +1,9 @@
 # .gitignore
-
+.vscode
+__pycache__/
 # Environment files
 .env
+passwords bruhh
 
 # Database file
 db.sqlite3
